@@ -1,1 +1,22 @@
-
+.App-header {  background-color: white;  color: black;  box-shadow: none;  border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+.restaurant-info {  cursor: pointer;}
+#inputWrapper {  min-height: 64px;  padding-left: 24px;  padding-right: 24px;  display: flex;  position: relative;  align-items: center;}
+.search-box {  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);  border: none;  font-family: inherit;  font-size: inherit;  outline: none;  margin-left: 44px;  height: 50px;  width: 60%;  padding: 24px;}
+.search-button {  margin: 20px;  width: 14%;  height: 33px;  color: white;  background-color: black;  font-size: 20px;  border-radius: 9px;  cursor: pointer;}
+.no-record {  text-align: center;  margin-top: 10%;}
+.info-container {  margin: 25px;  height: 38px;  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);  padding-top: 6px;}
+.table-root {  width: 100%;  border-spacing: 0;  border-collapse: collapse;}
+.thead-cell {  text-align: left;  font-weight: 500;  line-height: 1.6rem;  padding: 16px;  border-bottom: 5px solid rgba(224, 224, 224, 1);  vertical-align: inherit;}
+.tbody-cell {  padding: 16px;  font-size: 0.9333333333333333rem;  text-align: left;  font-family: "Encode Sans", sans-serif;  font-weight: 400;  line-height: 1.43;  border-bottom: 1px solid rgba(224, 224, 224, 1);  vertical-align: inherit;}
+.restaurant-details {  left: 10%;  right: 10%;  position: absolute;  overflow: auto;}
+.cuisines {  border: 1px solid rgb(207, 207, 207);  box-shadow: rgb(54 54 54 / 6%) 0px 1px 2px;  border-radius: 59px;  padding: 0.8rem;  display: inline-flex;  margin: 0px 1rem 1rem 0px;  cursor: pointer;  color: rgb(17, 145, 153);  line-height: 1.2;  text-decoration: unset;}
+.details-header {  margin-bottom: 10px;  border-bottom: 5px solid paleturquoise;}
+.menu-data {  border: .5px solid #dbdbdb;}
+.menu-data .menu-header {  background-color: #1e88e5;  color: #fafafa;  border-radius: 5px 5px 0 0;  font-size: 16px;  font-size: 1.3rem;  padding: 8px 16px;}
+.menu-data .sub-menu {  padding: 8px 35px;}
+.items {  font-weight: 600;  padding: 0 30px;}
+.items-name {  min-width: 40%;  float: left;}
+.submenu-name {  text-decoration: underline;}
+.spinner {  position: absolute;  top: 40%;  left: 50%;}
+.loader {  border: 16px solid #f3f3f3;  border-radius: 50%;  border-top: 16px solid #3498db;  width: 86px;  height: 86px;  -webkit-animation: spin 2s linear infinite; /* Safari */  animation: spin 2s linear infinite;}
+@keyframes spin {  0% { transform: rotate(0deg); }  100% { transform: rotate(360deg); }}
